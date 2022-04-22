@@ -1,0 +1,10 @@
+# Requisitos para executar o condigo 
+
+# No Terminal, execute:
+
+$ pip install -U textblob
+$ python -m textblob.download_corpora
+
+
+
+
