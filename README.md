@@ -3,19 +3,18 @@
 Projeto: Inclusão e Apoio a Idosos no Mundo Digital  
 
 Membros: 
-Luan Rufino de Araujo – 03174505 
-Rodrigo da Silva Reges - 03087047 
-Beatriz Vieira Pinheiro - 03114220
-Luiz Lourenço Pereira Neto - 03143472  
-Andre Sarges - 03115560 
-Deryck Henrique - 03117534
-João Vitor Ramires dos Santos - 03050801
-Isabelle Costa Brito - 03112371
-Thiago Frota de Souza - 03112026
-Pablo Loureiro Weecks - 03117661
-Ancrisio Assunção Caridade - 03165756
-Roney Alves da Silva - 03202392
-
+Luan Rufino de Araujo – 03174505;
+Rodrigo da Silva Reges - 03087047; 
+Beatriz Vieira Pinheiro - 03114220;
+Luiz Lourenço Pereira Neto - 03143472;
+Andre Sarges - 03115560;
+Deryck Henrique - 03117534;
+João Vitor Ramires dos Santos - 03050801;
+Isabelle Costa Brito - 03112371;
+Thiago Frota de Souza - 03112026;
+Pablo Loureiro Weecks - 03117661;
+Ancrisio Assunção Caridade - 03165756;
+Roney Alves da Silva - 03202392;
 
 
 1 - APRESENTAÇÃO 
