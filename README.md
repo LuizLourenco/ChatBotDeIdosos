@@ -1,6 +1,6 @@
 # ChatBotDeIdosos
 
-Projeto: Inclusão e Apoio a Idosos no Mundo Digital  
+# Projeto: Inclusão e Apoio a Idosos no Mundo Digital  
 
 Membros: 
 Luan Rufino de Araujo – 03174505;
@@ -17,7 +17,7 @@ Ancrisio Assunção Caridade - 03165756;
 Roney Alves da Silva - 03202392;
 
 
-1 - APRESENTAÇÃO 
+## 1 - APRESENTAÇÃO 
 
 O envelhecimento populacional é um fenômeno global e segundo o Ministério da Saúde, diz que o Brasil teve a quinta maior população idosa do mundo em 2016. Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), chegou a 29,6 milhões o número de pessoas acima dos 60 anos de idade. Em 2019 o Instituto Brasileiro de Geografia e Estatística (IBGE) apresentou um novo estudo onde o número de idosos no Brasil chegou a 32,9 milhões. Os dados mostram que a tendência de envelhecimento da população vem se mantendo e o número de pessoas com mais de 60 anos no país já é superior ao de crianças com até 9 anos de idade. Os 7,5 milhões de novos idosos que ganhamos de 2012 a 2019 representam um aumento de 29,5% neste grupo etário.
 Com o aumento dessa população é percebido um aumento significativo de pessoas idosas passando por exclusão digital provocada pela falta de usabilidade dos equipamentos eletrônicos ou de acesso a tecnologia que se conectam com maior facilidade com um público cada vez mais jovem. Sendo que é algo que pode ser contornado se as empresas desenvolvedoras de tecnologias de hardware ou software vissem o idoso como um usuário potencial que possui dificuldades e limitações.
@@ -25,7 +25,7 @@ Este trabalho tem como objetivo desenvolver a interface de um sistema que visa o
 Através da metodologia de Garrett que é um estudo que defende o desenvolvimento de um produto centrado no usuário e ressalta a importância do envolvimento do usuário para o alcance de resultados satisfatórios durante todo o processo criativo é possível usar vários processos para a criação de um produto intuitivo e funcional, de forma que a experiência do usuário seja agradável. Utilizando-se de comunicação clara para facilitar a compreensão do usuário ao utilizar um produto. O Garrett em seu método aborda justamente como estruturar e organizar a informação de modo a tornar o uso do produto simples e fácil para o usuário. A metodologia de Garrett envolve outras áreas do design que são importantes na composição de um produto e é definida em cinco planos: 1. Estratégia; 2. Escopo; 3. Estrutura; 4. Esqueleto; 5. Superfície. Através da metodologia de Garrett e também com ajuda de alguns pontos da metodologia TXM, foram feitas pesquisas, estudos de alternativas e experimentos que levaram ao resultado final deste projeto.
 
 
-1.1 - CARACTERIZAÇÃO DO PROBLEMA E JUSTIFICATIVA TÉCNICA 
+### 1.1 - CARACTERIZAÇÃO DO PROBLEMA E JUSTIFICATIVA TÉCNICA 
 
 A pandemia causada pelo COVID-19 em 2020 aproximou muitas pessoas de plataformas de chat, seja para pedir comidas, marcação de exames, entre outras necessidades. Um público que sentiu muito essa dificuldade de acesso a essas tecnologias foram os idosos. Muitas vezes saber executar uma tarefa em celular ou tablet parece ser simples e trivial para um adolescente. Mas para muitos idosos essa tarefa é tediosa e muitas das vezes sem uma lógica que faça sentido. Assim, um dos principais contatos dos idosos com a tecnologia foi devido à pandemia, onde houve a necessidade de redução do contato pessoal e o aumento do uso da internet. Isso ocasionou bastante curiosidade entre eles, em principal para acessar programas no computador, encontrar informações e acessar o email. O sistema de inclusão digital voltado aos idosos resultará em um impacto positivo pois auxiliará na conquista de independência para utilizar sistemas essenciais no dia a dia, e terão melhor comunicação à distância.
 O uso da tecnologia de Chat como ferramenta de comunicação para orientar e instruir usuários vem se tornando cada dia mais presente e quando essa tecnologia é combinada com outra como robôs autônomos de atendimento e/ou inteligentes, criando assim um Chatbot. O objetivo da nossa equipe é desenvolver e construir  um agente (Chatbot) baseado em Linguagem de Processamento Natural (NLP), agentes esses, que podem interagir e direcionar o usuário a realizar determinado procedimento  utilizando o poder do Machine Learning com  integração multi-canais. 
@@ -33,22 +33,22 @@ Basicamente os chatbots podem ser construídos baseados em regras ou podem ser b
 No começo, para  se  desenvolver  um  chatbot  era  necessário conhecimento avançado de programação e profissionais para atingir exatidão no protótipo. Contudo, com a popularização desta tecnologia, há diversas plataformas que facilitam a criação de chatbot. O DialogFlow, desenvolvido pela empresa Google, é uma plataforma que dispensa ao seu usuário a necessidade de programação avançada para desenvolver seu chatbot gratuitamente. Este modelo já vem com diversos algoritmos de aprendizagem de máquina previamente treinados com uma grande base de dados do próprio google e que está disponível para integração ao chatbot em diversas plataformas como facebook, telegram, skype, twitter entre outros. A aplicação ficará armazenada em um servidor de nuvem (disponível na Internet) usando a linguagem Python por ser um linguagem que oferece um amplo suporte a problemas de Inteligência Artificial, Machine Learning. Para solucionar o problema da retenção e armazenamento de dados será feito em tempo real com Firebase Database do Google.
 
 
-1.2  OBJETIVOS
+### 1.2  OBJETIVOS
 
-1.2.3   OBJETIVO GERAL 
+#### 1.2.3   OBJETIVO GERAL 
 
 Desenvolver um aplicativo para facilitar a comunicação e assistir, de forma simples e eficaz ao idoso.                   
 
 
 
-1.2.4    OBJETIVOS ESPECÍFICOS
+#### 1.2.4    OBJETIVOS ESPECÍFICOS
 
 - Construir um Servidor de internet.
 - Criar um Web Service em Python
 - Implementar um Robô Agente
 
 
-1.3  FUNDAMENTAÇÃO TEÓRICA
+### 1.3  FUNDAMENTAÇÃO TEÓRICA
 
 ChatBot
 No nível mais básico, um chatbot é um programa de computador que simula e processa conversas humanas (escritas ou faladas), permitindo que as pessoas interajam com dispositivos digitais como se estivessem se comunicando com uma pessoa real. Os chatbots podem ser tão simples quanto programas rudimentares que respondem a uma consulta simples com uma resposta de linha única ou tão sofisticados quanto assistentes digitais que aprendem e evoluem para fornecer níveis crescentes de personalização à medida que coletam e processam informações. A Proposta consiste em entregar o ChatBot integrado ao Chat com interface Web em HTML e também no Telegram, que é um mensageiro instantâneo que possui API que possibilita a integração com agente autônomos ou outros serviços. O Agente será desenvolvido em Python, utilizando o editor de código-fonte Visual Studio Code, no formato de WebService, tendo chamadas de API a partir do Usuário, Servidor Web e ou Telegram, as API do Telegram oferecem suporte a Criptografia na comunicação com a API do serviço, o ChatBot funcionará através de um grupo criado na plataforma, direcionado apenas com a função de sanar as dúvidas e mostrar tutoriais, em formato de Thread de conversa, enviada pelos chamados “inline bots” através de uma query. A comunicação será feita via API, por uma interface HTTPs. As Perguntas dos usuários lançadas no chat pelos usuários serão enviadas ao Agente que uma vez recebendo essas informações. O agente as encaminhará ao DialogFlow do Google que por sua vez fará o trabalho de Processamento de Linguagem Natural resultando assim na inferência de intenções do usuário. Sendo a intenção do usuário uma dúvida. Essa será pesquisando em uma base de conhecimento previamente mapeada em uma instância do Firebase com algumas documentações online mapeadas. E uma vez aferido a intenção do usuário será oferecido um passo a passo de como fazer baseado na Documentação previamente existente. 
