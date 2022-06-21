@@ -24,7 +24,8 @@ def main():
         #    nome = parametros['nome']['name']
         #    #pedidos.append({ 'nome': nome, 'sabor': sabor })
     
-    print(dfData)
+   
+print(dfData)
     #print(pedidos)
     
     #Devolvendo uma mensagem para DialogFlow 
