@@ -4,7 +4,6 @@
 #######################################################################################
 
 #Importando bibliotacas 
-from pickle import TRUE
 from flask import Flask, request, jsonify
 
 #instanciando o objeto com as bibliotecas flask
