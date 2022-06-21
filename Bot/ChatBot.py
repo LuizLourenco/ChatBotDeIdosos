@@ -1,1 +1,0 @@
-print("Ola Meu usuario !")
