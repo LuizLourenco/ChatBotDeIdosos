@@ -20,11 +20,16 @@ def main():
             parametros = context['parameters']
             sabor = parametros['sabor']
             nome = parametros['nome']['name']
-            pedidos.append({ 'nome': nome, 'sabor': sabor })
-    print(data)
-    print(pedidos)
-    data['fulfillmentText'] = 'Confirmado. Seu pedido está sendo preparado.'
+            #pedidos.append({ 'nome': nome, 'sabor': sabor })
 
+    print(dfData)
+    #print(pedidos)
+    
+    #Devolvendo uma mensagem para DialogFlow 
+    #Essa mensagem será apresentada ao usuário
+    dfData['fulfillmentText'] = 'Essa e uma msg do webhook'
+    return jsonify(dfData)
+    
     return jsonify(data)
 
 # run Flask app
