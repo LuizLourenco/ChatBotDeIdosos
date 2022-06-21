@@ -12,8 +12,8 @@ app = Flask(__name__)
 #iniciando uma matriz para colecionar dados
 pedidos = []
 
-# atribuindo a instancia a rota de entrada como http://hostname/webhook e usando metodo POST para troca de mensagens 
-@app.route('/webhook', methods=['POST']) 
+# atribuindo a instancia a rota de entrada como http://ajudaidoso.app.br/5000/ e usando metodo POST para troca de mensagens 
+@app.route('/', methods=['POST']) 
 def main():
     data = request.get_json(silent=True)
 
@@ -34,4 +34,3 @@ def main():
 if __name__ == "__main__":
     app.debug = False
     app.run()
-    
