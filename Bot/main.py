@@ -23,7 +23,6 @@ def main():
         #    sabor = parametros['sabor']
         #    nome = parametros['nome']['name']
         #    #pedidos.append({ 'nome': nome, 'sabor': sabor })
-
     
     print(dfData)
     #print(pedidos)
